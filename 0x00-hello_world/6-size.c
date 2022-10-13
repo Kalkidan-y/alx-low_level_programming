@@ -1,6 +1,9 @@
-#!/bin/bash
 #include <stdio.h>
-int main(void) 
+/**
+ * main - Entery point
+ * Return: Always 0
+ */
+int main(void)
 {
 	printf("Size of a char: %d\n" sizeof(char));
 	printf("Size of a int: %d\n" sizeof(int));

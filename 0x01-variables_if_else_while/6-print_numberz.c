@@ -1,19 +1,19 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
- * main - prints alphabets
- * Description: a program that prints the alphabet in lowercase
+ * main - print single digit numbers
+ * Description: "prints all single digit numbers of base 10 starting from 0"
  * Return: 0
  */
 int main(void)
-
 {
-	char alphabets;
+	int i = '0';
 
-	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
+	while (i <= '9')
 	{
-		putchar(alphabets);
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
-return (0);
+	return (0);
 }

@@ -1,25 +1,21 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
-
+/**
+ * main - prints alphabet lowercase
+ * number stored in the variable ch
+ * Return: Always 0 (Success)
+ **/
 
 int main(void)
-
 {
+int ch = 'a';
 
-	int ch;
-
-	for (ch ='a'; ch <= 'z'; ch++)
-
+	while (ch <= 'z')
 	{
-
-		    putchar(ch);
-
+		putchar(ch);
+		ch++;
 	}
-
-	putchar('\n');
-
-	return 0;
-
+putchar('\n');
+return (0);
 }

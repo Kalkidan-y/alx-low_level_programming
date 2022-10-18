@@ -2,26 +2,27 @@
 #include <stdlib.h>
 /*
  *
- *  main - gives the result of the print_alphabet function.
- *
+ *  main: gives ihe result of the print_alphabet function.
+ *  print_alphabet: prints the alphabet in lowercase.
  *  return: 0 success.
  *
- * */
-void print_alphabet(int ch)
+ */
+void print_alphabet(char ch)
 {
- ch = 'a';
+ch = 'a';
 
- while(ch <= 'z')
- {
-	 putchar(ch );
-         ch ++;
-	 putchar( "\n" );						    
-  }
+	while (ch <= 'z')
+{
+	putchar(ch);
+	ch++;
+	putchar('\n');
+}
 }
 
 int main(void)
 {
- int ch = 'a';
- print_alphabet(ch );
- return 0;
+int ch = 'a';
+
+print_alphabet(ch);
+return (0);
 }

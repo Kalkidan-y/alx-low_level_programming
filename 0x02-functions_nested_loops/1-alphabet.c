@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /*
  *
- *  main: gives ihe result of the print_alphabet function.
- *  print_alphabet: prints the alphabet in lowercase.
+ *  main: gives ihe result of the print_alphabet function,
+ *  print_alphabet:  prints the ch a-z,
  *  return: 0 success.
  *
  */

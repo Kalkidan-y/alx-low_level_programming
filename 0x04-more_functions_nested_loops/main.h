@@ -5,6 +5,7 @@
  * main: header file containing prototypes for 0x03 project.
  */
 
+int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);

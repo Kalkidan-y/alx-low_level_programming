@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strlen -> function to get the length of a tring
@@ -7,14 +8,13 @@
  *
  */
 
-int _strlen(char *s)
+size_t _strlen(const char *s)
 {
-	int len;
+	size_t len = 0;
 
-	while (*s != '\0')
+	while (*s++)
 	{
-		len = len + 1;
-		*s += 1;
+		len++;
 	}
 	return (len);
 }
